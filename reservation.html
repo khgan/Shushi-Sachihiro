@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shushi Sachihiro</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<link rel="stylesheet" type="text/css" href="css/slider.css" />
+<style type="text/css">
+    body{
+    background-image:  url("images/background.jpg");
+    background-color:black;  
+    background-size:cover;                      
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    }
+</style>
+    
+</head>
+
+<body>
+    
+<div class="trademark">
+    <a href="index.html"><img src="images/logo.png"></a>
+    <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+        <button type="submit" value="submit"><i>Go</i></button>
+    </form>
+  </div>
+    
+    </div>
+
+<nav class="navigation-bar">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="reservation.html">Reservation</a></li>
+  <li><a href="catering.html">Catering</a></li>
+  <li><a href="promotion.html">Promotion</a></li>
+  <li><a href="about.html">About Us</a></li>
+  <li><a href="contact.html">Contact Us</a></li>
+</nav>    
+
+    
+    <ul id=welcome>
+        
+        <div class="loginbanner">
+            <li class="loginbox"><h3>Hungry? Login Now</h3>
+            <input type="button" id="logintab" value="Login"
+	     onclick="window.location.href='login.php'">
+            </li>
+            <div class="welcometext"><marquee><h1>Reservation</h1></marquee></div>
+        </div>
+    </ul>
+    
+    <ul class="res-banner1"><br><br><h1>Online Reservation</h1><br><br><br><h1>We accept reservation for parties and events!</h1><br><p>Begin your reservation by fill the form below.</p>
+    </ul>
+
+<ul class="res-banner2"><br><br><br><h1>Reservation Form</h1><br><br>
+    
+    <form action="mailto:loveken95@hotmail.com" method="post" onsubmit="myFunction()">
+  
+     <label>&nbsp;&nbsp;Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <input type = "text" name = "Name" placeholder = "Enter your name" required = "on"/>
+     </label><br><br>
+
+     <label>&nbsp;Phone Number:&nbsp;&nbsp;
+     <input type = "text" name = "Phone Number" placeholder = "Enter your phone number;" 
+     required = "on"/></label><br><br>
+         
+     <label>&nbsp;Date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+     <input type="date" placeholder= "Please Select a Date" style="width: 155px " 
+     required = "on"/><br><br>
+
+     <label>Time:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+     <input type="Time" required = "on" style="width: 155px "/><br><br>
+
+     <label> &nbsp;No of People: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+     <input type="text" name="size" list="size"/><br><br>
+
+     <datalist id = "size">
+         <option value = "1 pax">
+         <option value = "2 pax">
+         <option value = "3 pax">
+         <option value = "4 pax">
+         <option value = "5 pax">
+         <option value = "6 pax">
+         <option value = "7 pax">
+         <option value = "8 pax">
+         <option value = "9 pax">
+         <option value = "10 pax">
+         <option value = "More than 10 pax">
+     </datalist>
+        
+<input type="submit" id="buttonreserve" value="Booking Now">
+</form>
+<br>
+    
+
+<br><h2>RESERVATION</h2><br>
+    <p>There are a few ways to make your reservation.</p>
+    <p>We offer Chef’s Table or Private Dinner Party Reservation in the private room called “Denchu” that accommodates up to 8 guests.  
+        We also offer a regular dining room reservation. Please make your reservation at here or by calling us  for lunch or dinner with the following information based on space availability.</p><br>
+    <p>.As we do not seat incomplete parties, please remind your guests to be as prompt for your reservation time as possible.</p><br>
+    <p>.We will hold your reservation for 10 minutes only after the reserved time.</p><br>
+    <p>.We are unable to facilitate any call ahead seating requests for our wait list.</p><br>
+    <p>.We do not take reservations at the sushi bar.</p><br><br>
+</ul>
+    
+    <div id="footer">
+        <div><h1>Stay Connected</h1><br></div>
+        <div><a href="https://business.facebook.com/Shushi-Sachihiro-Restaurant-235493976855472/?business_id=1324491024294511" target="_blank"><img class="fb" src="images/fb.png"></a>
+        <a href="https://www.instagram.com/Shushi_Sachihiro/?hl=en" target="_blank"><img class="insta" src="images/insta.png"></a>
+        </div>
+        <div><img class="qrcode" src="images/qrcode.png">
+        </div>
+        <div><p style="padding-top: 15px">Let your friend scan this QR Code to load this mobile web on his/her mobile device.</p></div>
+        <div><p style="padding-top: 15px">SHUSHI SACHIHIRO JAPANESE RESTAURANT  ©  All Rights Reserved.</p></div>
+    </div>
+
+    <script>
+    function myFunction() {
+    alert("Please Press Send Button at your Mail Box!!");
+    }
+    </script>
+   
+    </body>
+    </html> 
+    
